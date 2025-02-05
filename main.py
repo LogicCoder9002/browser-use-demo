@@ -15,7 +15,7 @@ llm = ChatGoogleGenerativeAI(model='gemini-2.0-flash-exp', api_key=SecretStr(api
 
 # Create agent with the model
 agent = Agent(
-    task="Search for 'latest AI trends 2024' on Google and summarize the top result.",
+    task="Type your task here",
     llm=llm
 )
 
